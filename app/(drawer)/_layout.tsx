@@ -23,7 +23,7 @@ const Layout = () => {
         name="favourites"
         options={{
           title: 'My Favourites',
-          headerShown: false,
+          headerShown: true,
           drawerIcon: ({ color, size }) => (
             <Ionicons name="star-outline" size={size} color={color} />
           ),
